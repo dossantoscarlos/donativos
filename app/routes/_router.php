@@ -2,7 +2,7 @@
 
 use App\config\Router;
 
-$twig = require __DIR__."/../../src/config/twig.php";
+$twig = require __DIR__."/../../app/config/twig.php";
 
 // Inicializar o roteador
 $router = new Router($twig);

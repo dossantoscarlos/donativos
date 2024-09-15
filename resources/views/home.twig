@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Home Page</title>
+    <title>{{ title }}</title>
 </head>
 <body>
-    <h1>Welcome, {{ name }}!</h1>
+    {% for home in homes %}
+        <h1>Home {{ home.nome }}!</h1>
+    {% endfor %}
 </body>
 </html>
