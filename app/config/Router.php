@@ -6,6 +6,8 @@ namespace App\Config;
 
 use Twig\Environment;
 
+use App\Config\Logger;
+
 class Router
 {
     
@@ -23,30 +25,39 @@ class Router
         self::$twig = $twig;
     }
 
+    private static function remove_barra_url(string $url)
+    {
+        return trim($url, '/');
+    }
+
     public static function get(string $url, string $action): void {
-        self::$routes['GET'][$url] = $action;
+
+        self::$routes['GET'][self::remove_barra_url($url)] = $action;
     }
 
     public static function post(string $url, string $action): void {
-        self::$routes['POST'][$url] = $action;
+        self::$routes['POST'][self::remove_barra_url($url)] = $action;
     }
 
     public static function put(string $url, string $action): void {
-        self::$routes['PUT'][$url] = $action;
+        self::$routes['PUT'][self::remove_barra_url($url)] = $action;
     }
 
     public static function patch(string $url, string $action): void {
-        self::$routes['PATCH'][$url] = $action;
+        self::$routes['PATCH'][self::remove_barra_url($url)] = $action;
     }
 
     public static function delete(string $url, string $action): void {
-        self::$routes['DELETE'][$url] = $action;
+        self::$routes['DELETE'][self::remove_barra_url($url)] = $action;
     }
 
     public static function handleRequest(string $url, string $method): void
     {
+        Logger::info(json_encode($url));
         // Remove query string (se houver)
         $url = strtok($url, '?');
+        
+    
 
         if (isset(self::$routes[$method][$url])) {
             $action = self::$routes[$method][$url];
