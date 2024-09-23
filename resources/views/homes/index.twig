@@ -1,0 +1,83 @@
+{% extends 'layouts/guest.twig' %}
+
+{% block title %} Users {% endblock %}
+
+{% block content %}
+
+    {% include 'components/header.twig' %}
+    <div class="container mt-4">
+        <h1 class="mb-4">Lista de Homes</h1>
+        
+        <!-- Formulário de pesquisa e filtro -->
+        <form id="search-form" method="GET" class="mb-4">
+            <div class="form-row align-items-center">
+                <div class="col-5 d-flex gap-2">
+                    <input type="text" class="form-control mb-2" id="search" name="search" placeholder="Pesquisar...">
+                    <button type="submit" class="btn btn-primary mb-2 p-2">Buscar</button>
+                </div>
+            </div>
+        </form>
+        
+        <!-- Tabela de dados -->
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Descrição</th>
+                    <th>Preço</th>
+                    <!-- Adicione mais cabeçalhos conforme necessário -->
+                </tr>
+            </thead>
+            <tbody id="homes-table-body">
+                {% for home in homes %}
+                <tr>
+                    <td>{{ home.id }}</td>
+                    <td>{{ home.nome }}</td>
+                    <td>{{ home.description }}</td>
+                    <td>{{ home.price }}</td>
+                    <!-- Adicione mais colunas conforme necessário -->
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <!-- Paginação -->
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                {% if current_page > 1 %}
+                <li class="page-item">
+                    <a class="page-link" href="?page={{ current_page - 1 }}&search={{ search }}" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                {% endif %}
+
+                {% for page in 1..total_pages %}
+                <li class="page-item {% if page == current_page %}active{% endif %}">
+                    <a class="page-link" href="?page={{ page }}&search={{ search }}">{{ page }}</a>
+                </li>
+                {% endfor %}
+
+                {% if current_page < total_pages %}
+                <li class="page-item">
+                    <a class="page-link" href="?page={{ current_page + 1 }}&search={{ search }}" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+                {% endif %}
+            </ul>
+        </nav>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $('#search-form').on('submit', function(e){
+                e.preventDefault();
+                let searchQuery = $('#search').val();
+                let currentPage = new URLSearchParams(window.location.search).get('page') || 1;
+                window.location.href = `?page=${currentPage}&search=${encodeURIComponent(searchQuery)}`;
+            });
+        });
+    </script>
+{% endblock %}

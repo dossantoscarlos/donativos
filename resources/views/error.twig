@@ -1,0 +1,29 @@
+{% extends 'layouts/guest.twig' %}
+
+{% block title %} {{ "Error de pagina" }} {% endblock %}
+
+{% block content %}
+<div class="container not-found p-5 d-flex row">
+    <h1 class="text-lg text-center " style="color: #0000cc">404</h1>
+    <div class="text-center mb-3" style="font-size: 16pt;color: #000f; font-weight: bold">Pagina não encontrada</div>
+    <div class='d-flex justify-content-center'>
+        <a href="/" class=''>
+            <button class="btn btn-primary">Voltar</button>
+        </a>
+    </div>
+</div>
+{% endblock %}
+
+{% block styles %}
+<style>
+.not-found {
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 20%;
+    border: 3px solid #cccccc;
+    padding:30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+</style>
+{% endblock %}

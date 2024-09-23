@@ -1,46 +1,593 @@
-[2024-09-15 05:56:13] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 05:56:48] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 05:57:05] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 05:57:07] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 05:57:26] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 05:57:27] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 05:58:18] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 05:59:19] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 05:59:40] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 05:59:41] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 05:59:42] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 06:01:07] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 06:01:09] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 06:01:09] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 06:01:24] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 06:01:26] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 06:01:26] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 06:01:34] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 06:01:35] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 06:01:35] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 06:01:35] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 06:01:36] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 06:02:14] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 06:02:15] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 06:02:16] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 06:02:16] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 06:02:29] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 06:03:11] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 06:03:26] [INFO] Home:[{"id":1,"nome":"home"},{"id":2,"nome":"footer"}]
-[2024-09-15 14:31:45] [INFO] false
-[2024-09-15 14:32:48] [INFO] ""
-[2024-09-15 14:40:47] [INFO] ""
-[2024-09-15 14:41:40] [DEBUG] URL: 
-[2024-09-15 14:41:40] [INFO] ""
-[2024-09-15 14:42:22] [DEBUG] URL: /
-[2024-09-15 14:42:22] [DEBUG] URL: 
-[2024-09-15 14:42:22] [INFO] ""
-[2024-09-15 14:43:23] [DEBUG] URL: /
-[2024-09-15 14:43:23] [DEBUG] URL: 
-[2024-09-15 14:43:23] [INFO] ""
-[2024-09-15 14:43:35] [DEBUG] URL: /user
-[2024-09-15 14:43:35] [DEBUG] URL: user
-[2024-09-15 14:43:35] [INFO] "user"
-[2024-09-15 14:44:14] [DEBUG] URL: /user
-[2024-09-15 14:44:14] [DEBUG] URL: user
-[2024-09-15 14:44:14] [INFO] "user"
+[2024-09-22 07:22:21] [DEBUG] URL:  /
+[2024-09-22 07:22:21] [DEBUG] URL: 
+[2024-09-22 07:22:21] [INFO] ""
+[2024-09-22 07:22:21] [DEBUG] URI => 
+[2024-09-22 07:23:09] [DEBUG] URL:  /
+[2024-09-22 07:23:09] [DEBUG] URL: 
+[2024-09-22 07:23:09] [DEBUG] URL: 
+[2024-09-22 07:23:09] [INFO] ""
+[2024-09-22 07:23:09] [DEBUG] URI => 
+[2024-09-22 07:25:38] [DEBUG] URL:  /
+[2024-09-22 07:25:38] [DEBUG] URL sem barra: 
+[2024-09-22 07:25:38] [DEBUG] URL: 
+[2024-09-22 07:25:38] [INFO] ""
+[2024-09-22 07:25:38] [DEBUG] URI => 
+[2024-09-22 07:26:39] [DEBUG] URL:  /
+[2024-09-22 07:26:39] [DEBUG] URL sem barra: /
+[2024-09-22 07:26:39] [INFO] "\/"
+[2024-09-22 07:26:39] [DEBUG] URI => /
+[2024-09-22 07:26:42] [DEBUG] URL:  /
+[2024-09-22 07:26:42] [DEBUG] URL sem barra: /
+[2024-09-22 07:26:42] [INFO] "\/"
+[2024-09-22 07:26:42] [DEBUG] URI => /
+[2024-09-22 07:26:43] [DEBUG] URL:  /
+[2024-09-22 07:26:43] [DEBUG] URL sem barra: /
+[2024-09-22 07:26:43] [INFO] "\/"
+[2024-09-22 07:26:43] [DEBUG] URI => /
+[2024-09-22 07:26:50] [DEBUG] URL:  /user
+[2024-09-22 07:26:50] [DEBUG] URL sem barra: user
+[2024-09-22 07:26:50] [INFO] "user"
+[2024-09-22 07:26:50] [DEBUG] URI => user
+[2024-09-22 07:26:50] [DEBUG] SELECT COUNT(*) FROM Homes 
+[2024-09-22 07:26:57] [DEBUG] URL:  /user
+[2024-09-22 07:26:57] [DEBUG] URL sem barra: user
+[2024-09-22 07:26:57] [INFO] "user"
+[2024-09-22 07:26:57] [DEBUG] URI => user
+[2024-09-22 07:26:57] [DEBUG] SELECT COUNT(*) FROM Homes 
+[2024-09-22 07:26:58] [DEBUG] URL:  /user
+[2024-09-22 07:26:58] [DEBUG] URL sem barra: user
+[2024-09-22 07:26:58] [INFO] "user"
+[2024-09-22 07:26:58] [DEBUG] URI => user
+[2024-09-22 07:26:58] [DEBUG] SELECT COUNT(*) FROM Homes 
+[2024-09-22 07:27:02] [DEBUG] URL:  /user
+[2024-09-22 07:27:02] [DEBUG] URL sem barra: user
+[2024-09-22 07:27:02] [INFO] "user"
+[2024-09-22 07:27:02] [DEBUG] URI => user
+[2024-09-22 07:27:02] [DEBUG] SELECT COUNT(*) FROM Homes  WHERE nome LIKE :search
+[2024-09-22 07:27:13] [DEBUG] URL:  /paciente/create
+[2024-09-22 07:27:13] [DEBUG] URL sem barra: paciente/create
+[2024-09-22 07:27:13] [INFO] "paciente\/create"
+[2024-09-22 07:27:13] [DEBUG] URI => paciente/create
+[2024-09-22 07:27:16] [DEBUG] URL:  /paciente/paciente/save
+[2024-09-22 07:27:16] [DEBUG] URL sem barra: paciente/paciente/save
+[2024-09-22 07:27:16] [INFO] "paciente\/paciente\/save"
+[2024-09-22 07:27:16] [DEBUG] URI => paciente/paciente/save
+[2024-09-22 07:27:39] [DEBUG] URL:  /paciente/paciente/save
+[2024-09-22 07:27:39] [DEBUG] URL sem barra: paciente/paciente/save
+[2024-09-22 07:27:39] [INFO] "paciente\/paciente\/save"
+[2024-09-22 07:27:39] [DEBUG] URI => paciente/paciente/save
+[2024-09-22 07:27:45] [DEBUG] URL:  /paciente/create
+[2024-09-22 07:27:45] [DEBUG] URL sem barra: paciente/create
+[2024-09-22 07:27:45] [INFO] "paciente\/create"
+[2024-09-22 07:27:45] [DEBUG] URI => paciente/create
+[2024-09-22 07:27:47] [DEBUG] URL:  /save
+[2024-09-22 07:27:47] [DEBUG] URL sem barra: save
+[2024-09-22 07:27:47] [INFO] "save"
+[2024-09-22 07:27:47] [DEBUG] URI => save
+[2024-09-22 07:28:04] [DEBUG] URL:  /paciente/create
+[2024-09-22 07:28:04] [DEBUG] URL sem barra: paciente/create
+[2024-09-22 07:28:04] [INFO] "paciente\/create"
+[2024-09-22 07:28:04] [DEBUG] URI => paciente/create
+[2024-09-22 07:28:06] [DEBUG] URL:  /paciente/save
+[2024-09-22 07:28:06] [DEBUG] URL sem barra: paciente/save
+[2024-09-22 07:28:06] [INFO] "paciente\/save"
+[2024-09-22 07:28:06] [DEBUG] URI => paciente/save
+[2024-09-22 07:28:09] [DEBUG] URL:  /
+[2024-09-22 07:28:09] [DEBUG] URL sem barra: /
+[2024-09-22 07:28:09] [INFO] "\/"
+[2024-09-22 07:28:09] [DEBUG] URI => /
+[2024-09-22 07:28:12] [DEBUG] URL:  /
+[2024-09-22 07:28:12] [DEBUG] URL sem barra: /
+[2024-09-22 07:28:12] [INFO] "\/"
+[2024-09-22 07:28:12] [DEBUG] URI => /
+[2024-09-22 07:28:17] [DEBUG] URL:  /paciente/create
+[2024-09-22 07:28:17] [DEBUG] URL sem barra: paciente/create
+[2024-09-22 07:28:17] [INFO] "paciente\/create"
+[2024-09-22 07:28:17] [DEBUG] URI => paciente/create
+[2024-09-22 07:48:20] [DEBUG] URL:  /paciente/save
+[2024-09-22 07:48:20] [DEBUG] URL sem barra: paciente/save
+[2024-09-22 07:48:20] [INFO] "paciente\/save"
+[2024-09-22 07:48:20] [DEBUG] URI => paciente/save
+[2024-09-22 07:48:23] [DEBUG] URL:  /
+[2024-09-22 07:48:23] [DEBUG] URL sem barra: /
+[2024-09-22 07:48:23] [INFO] "\/"
+[2024-09-22 07:48:23] [DEBUG] URI => /
+[2024-09-22 07:49:30] [DEBUG] URL:  /paciente/save
+[2024-09-22 07:49:30] [DEBUG] URL sem barra: paciente/save
+[2024-09-22 07:49:30] [INFO] "paciente\/save"
+[2024-09-22 07:49:30] [DEBUG] URI => paciente/save
+[2024-09-22 07:49:30] [DEBUG] URL:  /paciente
+[2024-09-22 07:49:30] [DEBUG] URL sem barra: paciente
+[2024-09-22 07:49:30] [INFO] "paciente"
+[2024-09-22 07:49:30] [DEBUG] URI => paciente
+[2024-09-22 16:41:40] [DEBUG] URL:  /paciente
+[2024-09-22 16:41:40] [DEBUG] URL sem barra: paciente
+[2024-09-22 16:41:40] [INFO] "paciente"
+[2024-09-22 16:41:40] [DEBUG] URI => paciente
+[2024-09-22 16:50:32] [DEBUG] URL:  /paciente/create
+[2024-09-22 16:50:32] [DEBUG] URL sem barra: paciente/create
+[2024-09-22 16:50:32] [INFO] "paciente\/create"
+[2024-09-22 16:50:32] [DEBUG] URI => paciente/create
+[2024-09-22 17:42:26] [INFO] {"nome":"nome","data_nasc":"cpf","cpf":"data_nasc","sexo":"sexo","telefone":"telefone","cep":"telefone_emergencia","localidade":"nome_emergencia","estado":"cep","bairro":"localidade","cidade":"estado","uf":"bairro","telefone_emergencia":"cidade","nome_emergencia":"uf","complemento":"complemento","numero":"numero"}
+[2024-09-22 17:42:53] [INFO] {"nome":"nome","data_nasc":"cpf","cpf":"data_nasc","sexo":"sexo","telefone":"telefone","cep":"telefone_emergencia","localidade":"nome_emergencia","estado":"cep","bairro":"localidade","cidade":"estado","uf":"bairro","telefone_emergencia":"cidade","nome_emergencia":"uf","complemento":"complemento","numero":"numero"}
+[2024-09-22 17:43:23] [INFO] {"nome":"nome","data_nasc":"cpf","cpf":"data_nasc","sexo":"sexo","telefone":"telefone","cep":"telefone_emergencia","localidade":"nome_emergencia","estado":"cep","bairro":"localidade","cidade":"estado","uf":"bairro","telefone_emergencia":"cidade","nome_emergencia":"uf","complemento":"complemento","numero":"numero"}
+[2024-09-22 17:44:12] [INFO] "nome"
+[2024-09-22 18:00:12] [INFO] "nome"
+[2024-09-22 18:02:40] [DEBUG] URL:  /paciente/save
+[2024-09-22 18:02:40] [DEBUG] URL sem barra: paciente/save
+[2024-09-22 18:02:40] [INFO] "paciente\/save"
+[2024-09-22 18:02:40] [DEBUG] URI => paciente/save
+[2024-09-22 18:04:35] [DEBUG] URL:  /paciente/save
+[2024-09-22 18:04:35] [DEBUG] URL sem barra: paciente/save
+[2024-09-22 18:04:35] [INFO] "paciente\/save"
+[2024-09-22 18:04:35] [DEBUG] URI => paciente/save
+[2024-09-22 18:04:35] [INFO] {"nome":"carlos eduardo dos santos silva","data_nasc":"15422620704","cpf":"1991-04-10","sexo":"m","telefone":"3454364646","cep":"757567567","localidade":"maria ventura dos santos","estado":"75467856756","bairro":"rua doutor renato","cidade":"rio de janeiro","uf":"austin","telefone_emergencia":"nova igua\u00e7u","nome_emergencia":"RJ","complemento":"andar 1","numero":"194"}
+[2024-09-22 18:22:05] [DEBUG] URL:  /paciente/save
+[2024-09-22 18:22:05] [DEBUG] URL sem barra: paciente/save
+[2024-09-22 18:22:05] [INFO] "paciente\/save"
+[2024-09-22 18:22:05] [DEBUG] URI => paciente/save
+[2024-09-22 18:22:05] [INFO] {"nome":"carlos eduardo dos santos silva","data_nasc":"15422620704","cpf":"1991-04-10","sexo":"m","telefone":"3454364646","cep":"757567567","localidade":"maria ventura dos santos","estado":"75467856756","bairro":"rua doutor renato","cidade":"rio de janeiro","uf":"austin","telefone_emergencia":"nova igua\u00e7u","nome_emergencia":"RJ","complemento":"andar 1","numero":"194"}
+[2024-09-22 18:32:32] [DEBUG] URL:  /paciente/save
+[2024-09-22 18:32:32] [DEBUG] URL sem barra: paciente/save
+[2024-09-22 18:32:32] [INFO] "paciente\/save"
+[2024-09-22 18:32:32] [DEBUG] URI => paciente/save
+[2024-09-22 18:32:50] [DEBUG] URL:  /paciente/save
+[2024-09-22 18:32:50] [DEBUG] URL sem barra: paciente/save
+[2024-09-22 18:32:50] [INFO] "paciente\/save"
+[2024-09-22 18:32:50] [DEBUG] URI => paciente/save
+[2024-09-22 18:32:50] [INFO] {"nome":"carlos eduardo dos santos silva","data_nasc":"1991-04-10","cpf":"15422620704","sexo":"m","telefone":"3454364646","cep":"757567567","localidade":"maria ventura dos santos","estado":"75467856756","bairro":"rua doutor renato","cidade":"rio de janeiro","uf":"austin","telefone_emergencia":"nova igua\u00e7u","nome_emergencia":"RJ","complemento":"andar 1","numero":"194"}
+[2024-09-22 18:33:34] [DEBUG] URL:  /paciente/save
+[2024-09-22 18:33:34] [DEBUG] URL sem barra: paciente/save
+[2024-09-22 18:33:34] [INFO] "paciente\/save"
+[2024-09-22 18:33:34] [DEBUG] URI => paciente/save
+[2024-09-22 18:33:34] [INFO] {"nome":"carlos eduardo dos santos silva","data_nasc":"1991-04-10","cpf":"15422620704","sexo":"m","telefone":"3454364646","cep":"757567567","localidade":"maria ventura dos santos","estado":"75467856756","bairro":"rua doutor renato","cidade":"rio de janeiro","uf":"RJ","telefone_emergencia":"nova igua\u00e7u","nome_emergencia":"austin","complemento":"andar 1","numero":"194"}
+[2024-09-22 18:33:34] [DEBUG] URL:  /paciente
+[2024-09-22 18:33:34] [DEBUG] URL sem barra: paciente
+[2024-09-22 18:33:34] [INFO] "paciente"
+[2024-09-22 18:33:34] [DEBUG] URI => paciente
+[2024-09-22 18:52:58] [DEBUG] URL:  /paciente
+[2024-09-22 18:52:58] [DEBUG] URL sem barra: paciente
+[2024-09-22 18:52:58] [INFO] "paciente"
+[2024-09-22 18:52:58] [DEBUG] URI => paciente
+[2024-09-22 18:52:58] [DEBUG] SELECT COUNT(*) FROM pacientes 
+[2024-09-22 18:53:40] [DEBUG] URL:  /paciente
+[2024-09-22 18:53:40] [DEBUG] URL sem barra: paciente
+[2024-09-22 18:53:40] [INFO] "paciente"
+[2024-09-22 18:53:40] [DEBUG] URI => paciente
+[2024-09-22 18:53:40] [DEBUG] SELECT COUNT(*) FROM pacientes 
+[2024-09-22 18:55:14] [DEBUG] URL:  /paciente
+[2024-09-22 18:55:14] [DEBUG] URL sem barra: paciente
+[2024-09-22 18:55:14] [INFO] "paciente"
+[2024-09-22 18:55:14] [DEBUG] URI => paciente
+[2024-09-22 18:55:14] [DEBUG] SELECT COUNT(*) FROM pacientes 
+[2024-09-22 18:56:03] [DEBUG] URL:  /paciente
+[2024-09-22 18:56:03] [DEBUG] URL sem barra: paciente
+[2024-09-22 18:56:03] [INFO] "paciente"
+[2024-09-22 18:56:03] [DEBUG] URI => paciente
+[2024-09-22 18:56:03] [DEBUG] SELECT COUNT(*) FROM pacientes 
+[2024-09-22 18:56:34] [DEBUG] URL:  /paciente
+[2024-09-22 18:56:34] [DEBUG] URL sem barra: paciente
+[2024-09-22 18:56:34] [INFO] "paciente"
+[2024-09-22 18:56:34] [DEBUG] URI => paciente
+[2024-09-22 18:56:34] [DEBUG] SELECT COUNT(*) FROM pacientes 
+[2024-09-22 18:57:00] [DEBUG] URL:  /paciente
+[2024-09-22 18:57:00] [DEBUG] URL sem barra: paciente
+[2024-09-22 18:57:00] [INFO] "paciente"
+[2024-09-22 18:57:00] [DEBUG] URI => paciente
+[2024-09-22 18:57:00] [DEBUG] SELECT COUNT(*) FROM pacientes 
+[2024-09-22 18:57:11] [DEBUG] URL:  /paciente
+[2024-09-22 18:57:11] [DEBUG] URL sem barra: paciente
+[2024-09-22 18:57:11] [INFO] "paciente"
+[2024-09-22 18:57:11] [DEBUG] URI => paciente
+[2024-09-22 18:57:11] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 18:57:18] [DEBUG] URL:  /paciente
+[2024-09-22 18:57:18] [DEBUG] URL sem barra: paciente
+[2024-09-22 18:57:18] [INFO] "paciente"
+[2024-09-22 18:57:18] [DEBUG] URI => paciente
+[2024-09-22 18:57:18] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 18:57:51] [DEBUG] URL:  /paciente
+[2024-09-22 18:57:51] [DEBUG] URL sem barra: paciente
+[2024-09-22 18:57:51] [INFO] "paciente"
+[2024-09-22 18:57:51] [DEBUG] URI => paciente
+[2024-09-22 18:57:51] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:06:01] [DEBUG] URL:  /paciente
+[2024-09-22 19:06:01] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:06:01] [INFO] "paciente"
+[2024-09-22 19:06:01] [DEBUG] URI => paciente
+[2024-09-22 19:06:01] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:06:12] [DEBUG] URL:  /paceinte/create
+[2024-09-22 19:06:12] [DEBUG] URL sem barra: paceinte/create
+[2024-09-22 19:06:12] [INFO] "paceinte\/create"
+[2024-09-22 19:06:12] [DEBUG] URI => paceinte/create
+[2024-09-22 19:06:21] [DEBUG] URL:  /paciente/create
+[2024-09-22 19:06:21] [DEBUG] URL sem barra: paciente/create
+[2024-09-22 19:06:21] [INFO] "paciente\/create"
+[2024-09-22 19:06:21] [DEBUG] URI => paciente/create
+[2024-09-22 19:07:20] [DEBUG] URL:  /paciente/save
+[2024-09-22 19:07:20] [DEBUG] URL sem barra: paciente/save
+[2024-09-22 19:07:20] [INFO] "paciente\/save"
+[2024-09-22 19:07:20] [DEBUG] URI => paciente/save
+[2024-09-22 19:07:20] [INFO] {"nome":"Expedita dolores qui","data_nasc":"2022-10-17","cpf":"PNz4FdwKTxEbdqYkaYsqjkZwa0tZRDByQjBCOEI1cTBkZTl4dHc9PQ==","sexo":"f","telefone":"+1 (545) 756-3687","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","complemento":"Est voluptatem facer","numero":"145"}
+[2024-09-22 19:07:20] [DEBUG] URL:  /paciente
+[2024-09-22 19:07:20] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:07:20] [INFO] "paciente"
+[2024-09-22 19:07:20] [DEBUG] URI => paciente
+[2024-09-22 19:07:20] [DEBUG] SELECT COUNT(*) FROM pacientes 
+[2024-09-22 19:07:55] [DEBUG] URL:  /paciente
+[2024-09-22 19:07:55] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:07:55] [INFO] "paciente"
+[2024-09-22 19:07:55] [DEBUG] URI => paciente
+[2024-09-22 19:07:55] [DEBUG] SELECT COUNT(*) FROM pacientes 
+[2024-09-22 19:09:10] [DEBUG] URL:  /paciente
+[2024-09-22 19:09:10] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:09:10] [INFO] "paciente"
+[2024-09-22 19:09:10] [DEBUG] URI => paciente
+[2024-09-22 19:09:10] [DEBUG] SELECT COUNT(*) FROM pacientes 
+[2024-09-22 19:09:10] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"PNz4FdwKTxEbdqYkaYsqjkZwa0tZRDByQjBCOEI1cTBkZTl4dHc9PQ==","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:09:12] [DEBUG] URL:  /paciente
+[2024-09-22 19:09:12] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:09:12] [INFO] "paciente"
+[2024-09-22 19:09:12] [DEBUG] URI => paciente
+[2024-09-22 19:09:12] [DEBUG] SELECT COUNT(*) FROM pacientes 
+[2024-09-22 19:09:12] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"PNz4FdwKTxEbdqYkaYsqjkZwa0tZRDByQjBCOEI1cTBkZTl4dHc9PQ==","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:11:59] [DEBUG] URL:  /paciente
+[2024-09-22 19:11:59] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:11:59] [INFO] "paciente"
+[2024-09-22 19:11:59] [DEBUG] URI => paciente
+[2024-09-22 19:11:59] [DEBUG] SELECT COUNT(*) FROM pacientes 
+[2024-09-22 19:12:11] [DEBUG] URL:  /paciente
+[2024-09-22 19:12:11] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:12:11] [INFO] "paciente"
+[2024-09-22 19:12:11] [DEBUG] URI => paciente
+[2024-09-22 19:12:11] [DEBUG] SELECT COUNT(*) FROM pacientes 
+[2024-09-22 19:12:11] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"PNz4FdwKTxEbdqYkaYsqjkZwa0tZRDByQjBCOEI1cTBkZTl4dHc9PQ==","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:15:10] [DEBUG] URL:  /paciente
+[2024-09-22 19:15:10] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:15:10] [INFO] "paciente"
+[2024-09-22 19:15:10] [DEBUG] URI => paciente
+[2024-09-22 19:15:10] [DEBUG] SELECT COUNT(*) FROM pacientes 
+[2024-09-22 19:15:10] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"PNz4FdwKTxEbdqYkaYsqjkZwa0tZRDByQjBCOEI1cTBkZTl4dHc9PQ==","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:15:33] [DEBUG] URL:  /paciente
+[2024-09-22 19:15:33] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:15:33] [INFO] "paciente"
+[2024-09-22 19:15:33] [DEBUG] URI => paciente
+[2024-09-22 19:15:33] [DEBUG] SELECT COUNT(*) FROM pacientes 
+[2024-09-22 19:15:33] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"PNz4FdwKTxEbdqYkaYsqjkZwa0tZRDByQjBCOEI1cTBkZTl4dHc9PQ==","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:15:36] [DEBUG] URL:  /paciente
+[2024-09-22 19:15:36] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:15:36] [INFO] "paciente"
+[2024-09-22 19:15:36] [DEBUG] URI => paciente
+[2024-09-22 19:15:36] [DEBUG] SELECT COUNT(*) FROM pacientes 
+[2024-09-22 19:15:36] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"PNz4FdwKTxEbdqYkaYsqjkZwa0tZRDByQjBCOEI1cTBkZTl4dHc9PQ==","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:16:53] [DEBUG] URL:  /paciente
+[2024-09-22 19:16:53] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:16:53] [INFO] "paciente"
+[2024-09-22 19:16:53] [DEBUG] URI => paciente
+[2024-09-22 19:16:53] [DEBUG] SELECT COUNT(*) FROM pacientes 
+[2024-09-22 19:16:53] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"PNz4FdwKTxEbdqYkaYsqjkZwa0tZRDByQjBCOEI1cTBkZTl4dHc9PQ==","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:17:00] [DEBUG] URL:  /paciente
+[2024-09-22 19:17:00] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:17:00] [INFO] "paciente"
+[2024-09-22 19:17:00] [DEBUG] URI => paciente
+[2024-09-22 19:17:00] [DEBUG] SELECT COUNT(*) FROM pacientes 
+[2024-09-22 19:17:00] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"PNz4FdwKTxEbdqYkaYsqjkZwa0tZRDByQjBCOEI1cTBkZTl4dHc9PQ==","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:17:01] [DEBUG] URL:  /paciente
+[2024-09-22 19:17:01] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:17:01] [INFO] "paciente"
+[2024-09-22 19:17:01] [DEBUG] URI => paciente
+[2024-09-22 19:17:01] [DEBUG] SELECT COUNT(*) FROM pacientes 
+[2024-09-22 19:17:01] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"PNz4FdwKTxEbdqYkaYsqjkZwa0tZRDByQjBCOEI1cTBkZTl4dHc9PQ==","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:18:37] [DEBUG] URL:  /paciente
+[2024-09-22 19:18:37] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:18:37] [INFO] "paciente"
+[2024-09-22 19:18:37] [DEBUG] URI => paciente
+[2024-09-22 19:18:37] [DEBUG] SELECT COUNT(*) FROM pacientes 
+[2024-09-22 19:18:37] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:18:55] [DEBUG] URL:  /paciente
+[2024-09-22 19:18:55] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:18:55] [INFO] "paciente"
+[2024-09-22 19:18:55] [DEBUG] URI => paciente
+[2024-09-22 19:18:55] [DEBUG] SELECT COUNT(*) FROM pacientes 
+[2024-09-22 19:18:55] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:20:19] [DEBUG] URL:  /paciente
+[2024-09-22 19:20:19] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:20:19] [INFO] "paciente"
+[2024-09-22 19:20:19] [DEBUG] URI => paciente
+[2024-09-22 19:20:19] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:20:19] [INFO] []
+[2024-09-22 19:20:22] [DEBUG] URL:  /paciente
+[2024-09-22 19:20:22] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:20:22] [INFO] "paciente"
+[2024-09-22 19:20:22] [DEBUG] URI => paciente
+[2024-09-22 19:20:22] [DEBUG] SELECT COUNT(*) FROM pacientes 
+[2024-09-22 19:20:22] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:20:30] [DEBUG] URL:  /paciente
+[2024-09-22 19:20:30] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:20:30] [INFO] "paciente"
+[2024-09-22 19:20:30] [DEBUG] URI => paciente
+[2024-09-22 19:20:30] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:20:30] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:20:39] [DEBUG] URL:  /paciente
+[2024-09-22 19:20:39] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:20:39] [INFO] "paciente"
+[2024-09-22 19:20:39] [DEBUG] URI => paciente
+[2024-09-22 19:20:39] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:20:39] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:20:40] [DEBUG] URL:  /paciente
+[2024-09-22 19:20:40] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:20:40] [INFO] "paciente"
+[2024-09-22 19:20:40] [DEBUG] URI => paciente
+[2024-09-22 19:20:40] [DEBUG] SELECT COUNT(*) FROM pacientes 
+[2024-09-22 19:20:40] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:20:52] [DEBUG] URL:  /paciente
+[2024-09-22 19:20:52] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:20:52] [INFO] "paciente"
+[2024-09-22 19:20:52] [DEBUG] URI => paciente
+[2024-09-22 19:20:52] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:20:52] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:20:59] [DEBUG] URL:  /paciente
+[2024-09-22 19:20:59] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:20:59] [INFO] "paciente"
+[2024-09-22 19:20:59] [DEBUG] URI => paciente
+[2024-09-22 19:20:59] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:20:59] [INFO] []
+[2024-09-22 19:21:01] [DEBUG] URL:  /paciente
+[2024-09-22 19:21:01] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:21:01] [INFO] "paciente"
+[2024-09-22 19:21:01] [DEBUG] URI => paciente
+[2024-09-22 19:21:01] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:21:01] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:28:22] [DEBUG] URL:  /paciente
+[2024-09-22 19:28:22] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:28:22] [INFO] "paciente"
+[2024-09-22 19:28:22] [DEBUG] URI => paciente
+[2024-09-22 19:28:22] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:28:22] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:28:44] [DEBUG] URL:  /paciente
+[2024-09-22 19:28:44] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:28:44] [INFO] "paciente"
+[2024-09-22 19:28:44] [DEBUG] URI => paciente
+[2024-09-22 19:28:44] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:28:44] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:29:01] [DEBUG] URL:  /paciente
+[2024-09-22 19:29:01] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:29:01] [INFO] "paciente"
+[2024-09-22 19:29:01] [DEBUG] URI => paciente
+[2024-09-22 19:29:01] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:29:01] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:29:09] [DEBUG] URL:  /paciente
+[2024-09-22 19:29:09] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:29:09] [INFO] "paciente"
+[2024-09-22 19:29:09] [DEBUG] URI => paciente
+[2024-09-22 19:29:09] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:29:09] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:29:15] [DEBUG] URL:  /paciente
+[2024-09-22 19:29:15] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:29:15] [INFO] "paciente"
+[2024-09-22 19:29:15] [DEBUG] URI => paciente
+[2024-09-22 19:29:15] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:29:15] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:29:24] [DEBUG] URL:  /paciente
+[2024-09-22 19:29:24] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:29:24] [INFO] "paciente"
+[2024-09-22 19:29:24] [DEBUG] URI => paciente
+[2024-09-22 19:29:24] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:29:24] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:29:43] [DEBUG] URL:  /paciente
+[2024-09-22 19:29:43] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:29:43] [INFO] "paciente"
+[2024-09-22 19:29:43] [DEBUG] URI => paciente
+[2024-09-22 19:29:43] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:29:43] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:29:53] [DEBUG] URL:  /paciente
+[2024-09-22 19:29:53] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:29:53] [INFO] "paciente"
+[2024-09-22 19:29:53] [DEBUG] URI => paciente
+[2024-09-22 19:29:53] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:29:53] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:30:31] [DEBUG] URL:  /paciente
+[2024-09-22 19:30:31] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:30:31] [INFO] "paciente"
+[2024-09-22 19:30:31] [DEBUG] URI => paciente
+[2024-09-22 19:30:31] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:30:31] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:30:41] [DEBUG] URL:  /paciente
+[2024-09-22 19:30:41] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:30:41] [INFO] "paciente"
+[2024-09-22 19:30:41] [DEBUG] URI => paciente
+[2024-09-22 19:30:41] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:30:41] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:30:47] [DEBUG] URL:  /paciente
+[2024-09-22 19:30:47] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:30:47] [INFO] "paciente"
+[2024-09-22 19:30:47] [DEBUG] URI => paciente
+[2024-09-22 19:30:47] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:30:47] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:31:03] [DEBUG] URL:  /paciente
+[2024-09-22 19:31:03] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:31:03] [INFO] "paciente"
+[2024-09-22 19:31:03] [DEBUG] URI => paciente
+[2024-09-22 19:31:03] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:31:03] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:31:28] [DEBUG] URL:  /paciente
+[2024-09-22 19:31:28] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:31:28] [INFO] "paciente"
+[2024-09-22 19:31:28] [DEBUG] URI => paciente
+[2024-09-22 19:31:28] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:31:28] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:31:34] [DEBUG] URL:  /paciente
+[2024-09-22 19:31:34] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:31:34] [INFO] "paciente"
+[2024-09-22 19:31:34] [DEBUG] URI => paciente
+[2024-09-22 19:31:34] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:31:34] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:31:41] [DEBUG] URL:  /paciente
+[2024-09-22 19:31:41] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:31:41] [INFO] "paciente"
+[2024-09-22 19:31:41] [DEBUG] URI => paciente
+[2024-09-22 19:31:41] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:31:41] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:31:55] [DEBUG] URL:  /paciente
+[2024-09-22 19:31:55] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:31:55] [INFO] "paciente"
+[2024-09-22 19:31:55] [DEBUG] URI => paciente
+[2024-09-22 19:31:55] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:31:55] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:31:59] [DEBUG] URL:  /paciente
+[2024-09-22 19:31:59] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:31:59] [INFO] "paciente"
+[2024-09-22 19:31:59] [DEBUG] URI => paciente
+[2024-09-22 19:31:59] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:31:59] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:32:33] [DEBUG] URL:  /paciente
+[2024-09-22 19:32:33] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:32:33] [INFO] "paciente"
+[2024-09-22 19:32:33] [DEBUG] URI => paciente
+[2024-09-22 19:32:33] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:32:33] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:32:41] [DEBUG] URL:  /paciente
+[2024-09-22 19:32:41] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:32:41] [INFO] "paciente"
+[2024-09-22 19:32:41] [DEBUG] URI => paciente
+[2024-09-22 19:32:41] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:32:41] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:32:51] [DEBUG] URL:  /paciente
+[2024-09-22 19:32:51] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:32:51] [INFO] "paciente"
+[2024-09-22 19:32:51] [DEBUG] URI => paciente
+[2024-09-22 19:32:51] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:32:51] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:32:53] [DEBUG] URL:  /paciente
+[2024-09-22 19:32:53] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:32:53] [INFO] "paciente"
+[2024-09-22 19:32:53] [DEBUG] URI => paciente
+[2024-09-22 19:32:53] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:32:53] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:32:53] [DEBUG] URL:  /paciente
+[2024-09-22 19:32:53] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:32:53] [INFO] "paciente"
+[2024-09-22 19:32:53] [DEBUG] URI => paciente
+[2024-09-22 19:32:53] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:32:53] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:32:53] [DEBUG] URL:  /paciente
+[2024-09-22 19:32:53] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:32:53] [INFO] "paciente"
+[2024-09-22 19:32:53] [DEBUG] URI => paciente
+[2024-09-22 19:32:53] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:32:53] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:32:53] [DEBUG] URL:  /paciente
+[2024-09-22 19:32:53] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:32:53] [INFO] "paciente"
+[2024-09-22 19:32:53] [DEBUG] URI => paciente
+[2024-09-22 19:32:53] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:32:53] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:33:08] [DEBUG] URL:  /paciente
+[2024-09-22 19:33:08] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:33:08] [INFO] "paciente"
+[2024-09-22 19:33:08] [DEBUG] URI => paciente
+[2024-09-22 19:33:08] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:33:08] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:33:36] [DEBUG] URL:  /paciente
+[2024-09-22 19:33:36] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:33:36] [INFO] "paciente"
+[2024-09-22 19:33:36] [DEBUG] URI => paciente
+[2024-09-22 19:33:36] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:33:36] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:33:53] [DEBUG] URL:  /paciente
+[2024-09-22 19:33:53] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:33:53] [INFO] "paciente"
+[2024-09-22 19:33:53] [DEBUG] URI => paciente
+[2024-09-22 19:33:53] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:33:53] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:34:02] [DEBUG] URL:  /paciente
+[2024-09-22 19:34:02] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:34:02] [INFO] "paciente"
+[2024-09-22 19:34:02] [DEBUG] URI => paciente
+[2024-09-22 19:34:02] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:34:02] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:34:06] [DEBUG] URL:  /paciente
+[2024-09-22 19:34:06] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:34:06] [INFO] "paciente"
+[2024-09-22 19:34:06] [DEBUG] URI => paciente
+[2024-09-22 19:34:06] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:34:06] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:34:21] [DEBUG] URL:  /paciente
+[2024-09-22 19:34:21] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:34:21] [INFO] "paciente"
+[2024-09-22 19:34:21] [DEBUG] URI => paciente
+[2024-09-22 19:34:21] [DEBUG] SELECT COUNT(*) FROM pacientes  WHERE nome LIKE :search
+[2024-09-22 19:34:21] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:34:45] [DEBUG] URL:  /paciente/create
+[2024-09-22 19:34:45] [DEBUG] URL sem barra: paciente/create
+[2024-09-22 19:34:45] [INFO] "paciente\/create"
+[2024-09-22 19:34:45] [DEBUG] URI => paciente/create
+[2024-09-22 19:36:29] [DEBUG] URL:  /paciente/create
+[2024-09-22 19:36:29] [DEBUG] URL sem barra: paciente/create
+[2024-09-22 19:36:29] [INFO] "paciente\/create"
+[2024-09-22 19:36:29] [DEBUG] URI => paciente/create
+[2024-09-22 19:36:31] [DEBUG] URL:  /paciente/create
+[2024-09-22 19:36:31] [DEBUG] URL sem barra: paciente/create
+[2024-09-22 19:36:31] [INFO] "paciente\/create"
+[2024-09-22 19:36:31] [DEBUG] URI => paciente/create
+[2024-09-22 19:38:02] [DEBUG] URL:  /paciente/create
+[2024-09-22 19:38:02] [DEBUG] URL sem barra: paciente/create
+[2024-09-22 19:38:02] [INFO] "paciente\/create"
+[2024-09-22 19:38:02] [DEBUG] URI => paciente/create
+[2024-09-22 19:38:24] [DEBUG] URL:  /paciente/create
+[2024-09-22 19:38:24] [DEBUG] URL sem barra: paciente/create
+[2024-09-22 19:38:24] [INFO] "paciente\/create"
+[2024-09-22 19:38:24] [DEBUG] URI => paciente/create
+[2024-09-22 19:38:34] [DEBUG] URL:  /paciente/create
+[2024-09-22 19:38:34] [DEBUG] URL sem barra: paciente/create
+[2024-09-22 19:38:34] [INFO] "paciente\/create"
+[2024-09-22 19:38:34] [DEBUG] URI => paciente/create
+[2024-09-22 19:38:46] [DEBUG] URL:  /paciente/create
+[2024-09-22 19:38:46] [DEBUG] URL sem barra: paciente/create
+[2024-09-22 19:38:46] [INFO] "paciente\/create"
+[2024-09-22 19:38:46] [DEBUG] URI => paciente/create
+[2024-09-22 19:40:46] [DEBUG] URL:  /paciente/create
+[2024-09-22 19:40:46] [DEBUG] URL sem barra: paciente/create
+[2024-09-22 19:40:46] [INFO] "paciente\/create"
+[2024-09-22 19:40:46] [DEBUG] URI => paciente/create
+[2024-09-22 19:40:49] [DEBUG] URL:  /paciente/create
+[2024-09-22 19:40:49] [DEBUG] URL sem barra: paciente/create
+[2024-09-22 19:40:49] [INFO] "paciente\/create"
+[2024-09-22 19:40:49] [DEBUG] URI => paciente/create
+[2024-09-22 19:42:09] [DEBUG] URL:  /paciente/create
+[2024-09-22 19:42:09] [DEBUG] URL sem barra: paciente/create
+[2024-09-22 19:42:09] [INFO] "paciente\/create"
+[2024-09-22 19:42:09] [DEBUG] URI => paciente/create
+[2024-09-22 19:42:54] [DEBUG] URL:  /paciente/create
+[2024-09-22 19:42:54] [DEBUG] URL sem barra: paciente/create
+[2024-09-22 19:42:54] [INFO] "paciente\/create"
+[2024-09-22 19:42:54] [DEBUG] URI => paciente/create
+[2024-09-22 19:43:26] [DEBUG] URL:  /paciente/create
+[2024-09-22 19:43:26] [DEBUG] URL sem barra: paciente/create
+[2024-09-22 19:43:26] [INFO] "paciente\/create"
+[2024-09-22 19:43:26] [DEBUG] URI => paciente/create
+[2024-09-22 19:44:11] [DEBUG] URL:  /paciente/create
+[2024-09-22 19:44:11] [DEBUG] URL sem barra: paciente/create
+[2024-09-22 19:44:11] [INFO] "paciente\/create"
+[2024-09-22 19:44:11] [DEBUG] URI => paciente/create
+[2024-09-22 19:44:32] [DEBUG] URL:  /paciente
+[2024-09-22 19:44:32] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:44:32] [INFO] "paciente"
+[2024-09-22 19:44:32] [DEBUG] URI => paciente
+[2024-09-22 19:44:32] [DEBUG] SELECT COUNT(*) FROM pacientes 
+[2024-09-22 19:44:32] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:44:36] [DEBUG] URL:  /paciente/create
+[2024-09-22 19:44:36] [DEBUG] URL sem barra: paciente/create
+[2024-09-22 19:44:36] [INFO] "paciente\/create"
+[2024-09-22 19:44:36] [DEBUG] URI => paciente/create
+[2024-09-22 19:44:38] [DEBUG] URL:  /paciente
+[2024-09-22 19:44:38] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:44:38] [INFO] "paciente"
+[2024-09-22 19:44:38] [DEBUG] URI => paciente
+[2024-09-22 19:44:38] [DEBUG] SELECT COUNT(*) FROM pacientes 
+[2024-09-22 19:44:38] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]
+[2024-09-22 19:46:27] [DEBUG] URL:  /paciente
+[2024-09-22 19:46:27] [DEBUG] URL sem barra: paciente
+[2024-09-22 19:46:27] [INFO] "paciente"
+[2024-09-22 19:46:27] [DEBUG] URI => paciente
+[2024-09-22 19:46:27] [DEBUG] SELECT COUNT(*) FROM pacientes 
+[2024-09-22 19:46:27] [INFO] [{"id":2,"nome":"Expedita dolores qui","cpf":"15422620704","data_nasc":"2022-10-17","sexo":"f","telefone":"+1 (545) 756-3687","telefone_emergencia":"Maiores unde consequ","nome_emergencia":"Qui est ipsam mollit","cep":"+1 (606) 459-8369","localidade":"Tempor saepe in et v","estado":"26087030","bairro":"Autem veritatis qui ","cidade":"Et vero odit et labo","uf":"RJ","complemento":"Est voluptatem facer","numero":"145"}]

@@ -1,0 +1,103 @@
+{% extends 'layouts/guest.twig' %}
+
+{% block title %} Registro de paciente {% endblock %}
+
+{% block content %}
+    <div class='container'>
+        <div class='mt-5'>
+            <form method="POST" action="/paciente/save" >
+                
+                <div class='row p-5 pr-4 g-3'>
+                    <h3 class='mb-2 text-center'>Registro de Paciente</h3>
+                    <h5>Paciente</h5>
+                    <div class='form-floating col-6'>
+                        <input class='form-control' type='text' id='nome' name='nome' placeholder='Nome completo do paciente...'/>
+                        <label class='form-label px-4' for='nome'>Nome do paciente<span class='text-danger'> * </span></label>
+                    </div>
+                    <div class='form-floating col-2'>
+                        <input class='form-control' type='date' id='data_nasc' name='data_nasc' /> 
+                        <label class='form-label px-4' for='data_nasc'> Data de nascimento<span class="text-danger"> * </span></label>
+                    </div>
+                    <div class='form-floating col-2'>
+                        <input type='text' id='paciente_cpf' name='paciente_cpf' class='form-control' placeholder="111.111.111-11"/>
+                        <label class='form-label px-4' for='paciente_cpf'>CPF<span class='text-danger'> * </span></label>
+                    </div>
+                    <div class='form-floating col-2'>
+                        <select id='paciente_sexo' name='paciente_sexo' class='form-control' placeholder='masculino' >
+                            <option disabled selected> Selecione uma opção </option>
+                            <option value='m'>Masculino</option>
+                            <option value='f'>Feminino</option>
+                        </select> 
+                        <label class='form-label px-4' for='paciente_sexo'>Sexo<span class='text-danger'> * </span></label>
+                    </div>
+                    <h5>Contato</h5>
+                    <div class="form-floating col-3">
+                        <input class='form-control' type='tel' id='telefone' name='telefone' placeholder='(21) 9 9999-9999' />
+                        <label class='form-label px-4' for='telefone'>Telefone<span class='text-danger'> * </span></label>
+                    </div>
+                    <div class='form-floating col-3'>
+                        <input class='form-control' type='tel' id='emergencia' name ='emergencia' placeholder='(21) 9 9999-9999' /> 
+                        <label class='form-label px-4' for='emergencia'>Telefone de emergencia</label>
+                    </div>
+                    <div class='form-floating col-6'>
+                        <input class='form-control' type='text' id='nome_emergencia' name='nome_emergencia' placeholder='Nome do contato de emergencia...'/> 
+                        <label class='form-label px-4' for='nome_emergencia'>Nome do contato de emergencia</label>
+                    </div>
+
+                    <h5>Endereço</h5> 
+                    <div class='form-floating col-4'>
+                        <input type='text' id='cep' name='cep' placeholder='26087030' class='form-control' />
+                        <label class='form-label px-4' for='cep'>CEP<span class='text-danger'> * </span></label>
+                    </div>
+                    <div class='form-floating col-8'>
+                        <input type="text" name='localidade' id='localidade' placeholder='rua doutor renato' class='form-control'/>
+                        <label class='form-label px-4' for='localidade'>Rua<span class='text-danger'> * </span></label>
+                    </div>
+                    <div class='form-floating col-4'>
+                        <input type='text' name='cidade' id='cidade' placeholder='Nova Iguaçu' class='form-control' />
+                        <label class='form-label px-4' for='cidade'>Cidade<span class='text-danger'> * </span></label>
+                    </div>
+                    <div class='form-floating col-4'>
+                        <input type='text' name='bairro' id='bairro' placeholder='Austin' class='form-control' />
+                        <label class='form-label px-4' for='bairro'>Bairro<span class='text-danger'> * </span></label>
+                    </div>
+                    <div class='form-floating col-4'>
+                        <input type='text' name='estado' id='estado' placeholder='Rio de Janeiro' class='form-control'/>
+                        <label class='form-label px-4' for='estado'>Estado<span class='text-danger'> * </span></label>
+                    </div>
+                    <div class='form-floating col-3'>
+                        <input type='text' name='uf' id='uf' placeholder='RJ' class='form-control' />
+                        <label class='form-label px-4' for='uf'>UF<span class='text-danger'> * </span></label>
+                    </div>
+                    <div class='form-floating col-6'>
+                        <input type="text" name='complemento' id='complemento' placeholder='Andar 4' class='form-control' />  
+                        <label class='form-label px-4' for='complemento'>Complemento<span class='text-danger'> * </span></label>
+                    </div>
+                    <div class='form-floating col-3'>
+                        <input type='text' id='numero_casa' name='numero_casa' class='form-control' placeholder='1576'/>
+                        <label class='form-label px-4' for='numero_casa'>Numero<span class='text-danger'> * </span></label>
+                    </div>
+                    <div class='form-group row mt-4 col-12'>
+                        <div class='col-4'>
+                            <a href='/paciente' class='btn btn-success btn-lg' title='voltar'>
+                                <svg xmlns="http://www.w3.org/2000/svg" 
+                                    width="16" height="16" 
+                                    fill="currentColor" 
+                                    class="bi bi-arrow-return-left" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" 
+                                        d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class='col-4 d-flex justify-content-center'>
+                            <button class='btn btn-secondary btn-lg' type='reset'>Limpar</button>
+                        </div>
+                        <div class='col-4 d-flex justify-content-end'>
+                            <button class='btn btn-primary btn-lg'>Registrar</button>
+                        </div>
+                    </div>
+               </div>
+            </form>
+        </div>
+    <div>
+{% endblock %}

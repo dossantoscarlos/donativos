@@ -1,15 +1,16 @@
-<?php 
+<?php
 
 declare(strict_types=1);
 
 namespace App\Models;
 
-class Home {
+class Home
+{
+    public const table = 'Homes';
 
-    public const table = 'Homes'; 
-    public string $name;
+    public string $nome;
 
-    public function to_array() 
+    public function to_array()
     {
         return get_object_vars($this);
     }

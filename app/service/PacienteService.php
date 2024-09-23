@@ -6,7 +6,8 @@ namespace App\Service;
 
 use App\Database\RepositoryTrait;
 
-class HomeService
+class PacienteService
 {
     use RepositoryTrait;
+
 }

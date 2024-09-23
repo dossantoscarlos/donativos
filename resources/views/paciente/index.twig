@@ -1,0 +1,93 @@
+{% extends 'layouts/guest.twig' %}
+
+{% block title %} Paciente {% endblock %}
+
+{% block content %}
+
+    {% include 'components/header.twig' %}
+    <div class="container mt-4">
+        <h1 class="mb-4">Lista de pacientes</h1>
+        <div class='row'>
+            <div class= 'col-7'>
+                <!-- Formulário de pesquisa e filtro -->
+                <form id="search-form" method="GET" class="mb-4">
+                    <div class="form-row ">
+                        <div class="col-8 d-flex align-items-end gap-2">
+                            <input type="text" class="form-control mb-2" id="search" name="search" placeholder="Pesquisar...">
+                            <button type="submit" class="btn btn-primary btn-sm mb-2 p-2">Buscar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class='col-5 d-flex justify-content-end align-items-center'>
+                <a href='/paciente/create' class='btn btn-success btn-sm' >Novo paciente</a>
+            </div>
+        </div>
+            
+        <!-- Tabela de dados -->
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Sexo</th>
+                    <th>Data Nascimento</th>
+                    <th>CPF</th>
+                    <!-- Adicione mais cabeçalhos conforme necessário -->
+                </tr>
+            </thead>
+            <tbody id="pacientes-table-body">
+                {% for paciente in pacientes %}
+                <tr>
+                    <td>{{ paciente.id }}</td>
+                    <td>{{ paciente.nome }}</td>
+                    <td>{{ paciente.sexo == "m" ? 'masculino'|upper : 'feminino'|upper }}</td>
+                    <td>{{ paciente.data_nasc }}</td>
+                    <td>{{ paciente.cpf }} </td>
+                    <!-- Adicione mais colunas conforme necessário -->
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        {% if pacientes|length > 0 %}
+        <!-- Paginação -->
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                {% if current_page > 1 %}
+                <li class="page-item">
+                    <a class="page-link" href="?page={{ current_page - 1 }}&search={{ search }}" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                {% endif %}
+
+                {% for page in 1..total_pages %}
+                <li class="page-item {% if page == current_page %}active{% endif %}">
+                    <a class="page-link" href="?page={{ page }}&search={{ search }}">{{ page }}</a>
+                </li>
+                {% endfor %}
+
+                {% if current_page < total_pages %}
+                <li class="page-item">
+                    <a class="page-link" href="?page={{ current_page + 1 }}&search={{ search }}" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+                {% endif %}
+            </ul>
+        </nav>
+    </div>
+    {% endif %}
+
+    <script>
+        $(document).ready(function(){
+            $('#search-form').on('submit', function(e){
+                e.preventDefault();
+                let searchQuery = $('#search').val();
+                let currentPage = new URLSearchParams(window.location.search).get('page') || 1;
+                window.location.href = `?page=${currentPage}&search=${encodeURIComponent(searchQuery)}`;
+            });
+        });
+    </script>
+{% endblock %}

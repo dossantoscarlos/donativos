@@ -13,6 +13,10 @@
     ],
     "require": {
         "dompdf/dompdf": "^3.0",
-        "twig/twig": "^3.14"
+        "twig/twig": "^3.14",
+        "laravel/pint": "^1.17",
+        "datatables.net/datatables.net-dt": "^2.1",
+        "phpoffice/phpspreadsheet": "^2.2",
+        "setasign/fpdf": "^1.8"
     }
 }
